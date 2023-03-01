@@ -1,0 +1,36 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.container-in {
+  width: 110rem;
+}
+.mb {
+  margin-bottom: 10rem;
+}
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-6-cols {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+h1 {
+  display: block;
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: #fff;
+  line-height: 1.48;
+}
+h2 {
+  font-size: 3.6rem;
+}

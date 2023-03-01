@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="estilos.css" rel="stylesheet" />
+    <link href="general.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hola bootstrap</title>
+  </head>
+  <body>
+    <div class="hero">
+      <header class="header">
+        <img src="logo.png" alt="logo-exstore" />
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li><a class="header-nav-link games" href="#games">Games</a></li>
+            <li>
+              <a class="header-nav-link" href="#browse"
+                >Browse Games
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon-down"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="header-nav-link" href="#Store">Store</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="header-nav">
+          <ul class="header-nav-list botones">
+            <li>
+              <a class="header-nav-link btn--nav btn-signup" href="#Sign up"
+                >Sign up</a
+              >
+            </li>
+            <li>
+              <a class="header-nav-link btn--nav login" href="#Login">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero-text">
+        <h1>MultiVersus</h1>
+        <p class="hero-description">
+          Now officially free to play for all Xbox users.
+        </p>
+        <a class="btn--nav get">Get in now!</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="why-text">
+        <h2>Why eXStore</h2>
+        <p>
+          We are the official Xbox partner in Indonesia that provides official
+          video games.
+        </p>
+      </div>
+      <div class="why-icons grid-3-cols">
+        <div class="icon-blue">
+          <svg
+            width="94"
+            height="94"
+            viewBox="0 0 94 94"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="94" height="94" rx="47" fill="#D8DAFD" />
+            <path
+              d="M40.8665 28.6945C39.3806 27.9786 37.7508 27.867 36.2669 28.1383L32.9611 28.7465C31.7676 28.9661 30.6419 29.4451 29.6698 30.1467C28.6977 30.8484 27.9048 31.7543 27.3516 32.7955C23.5239 40.0179 20.6301 45.9337 19.5122 50.9776C18.3603 56.1794 19.0623 60.6326 22.528 64.6893C24.8278 67.3816 28.7815 66.837 30.8373 64.5931C32.564 62.702 34.2793 60.8013 35.9829 58.8909C36.5479 58.2563 37.2488 57.7467 38.0375 57.3969C38.8262 57.0472 39.6841 56.8656 40.5525 56.8645H53.4495C55.2033 56.8645 56.8692 57.6035 58.0171 58.889C59.777 60.8577 61.5808 62.863 63.1627 64.5892C65.2185 66.835 69.1722 67.3797 71.472 64.6854C74.9377 60.6306 75.6397 56.1775 74.4878 50.9757C73.3699 45.9317 70.4781 40.0179 66.6484 32.7936C66.0952 31.7524 65.3023 30.8465 64.3302 30.1448C63.3581 29.4431 62.2324 28.9642 61.0389 28.7445L57.7351 28.1364C56.2492 27.8631 54.6194 27.9767 53.1355 28.6945C52.8435 28.8331 52.5495 28.9812 52.2516 29.1333C51.2999 29.6374 50.234 29.9083 49.1478 29.9223H44.8522C43.766 29.9083 42.7001 29.6374 41.7484 29.1333C41.4505 28.9793 41.1565 28.8331 40.8665 28.6926V28.6945ZM47.006 43.3934C46.6121 43.3934 46.222 43.3187 45.858 43.1737C45.4941 43.0286 45.1634 42.816 44.8849 42.5479C44.6063 42.2799 44.3853 41.9616 44.2346 41.6114C44.0838 41.2612 44.0062 40.8858 44.0062 40.5067C44.0062 40.1276 44.0838 39.7523 44.2346 39.402C44.3853 39.0518 44.6063 38.7336 44.8849 38.4655C45.1634 38.1975 45.4941 37.9849 45.858 37.8398C46.222 37.6947 46.6121 37.6201 47.006 37.6201C47.8016 37.6201 48.5646 37.9242 49.1271 38.4655C49.6897 39.0069 50.0058 39.7411 50.0058 40.5067C50.0058 41.2723 49.6897 42.0066 49.1271 42.5479C48.5646 43.0893 47.8016 43.3934 47.006 43.3934V43.3934Z"
+              fill="#3B44F6"
+            />
+          </svg>
+
+          <p class="icon-text">5000+ video games available</p>
+        </div>
+        <div class="icon-blue">
+          <svg
+            width="94"
+            height="94"
+            viewBox="0 0 94 94"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="94" height="94" rx="47" fill="#D8DAFD" />
+            <path
+              d="M69.302 37.2587C69.3664 36.7715 69.4 36.2843 69.4 35.7999C69.4 29.1387 63.3996 23.7935 56.7412 24.6979C54.8008 21.2455 51.1048 18.9999 47 18.9999C42.8952 18.9999 39.1992 21.2455 37.2588 24.6979C30.5864 23.7935 24.6 29.1387 24.6 35.7999C24.6 36.2843 24.6336 36.7715 24.698 37.2587C21.2456 39.2019 19 42.8979 19 46.9999C19 51.1019 21.2456 54.7979 24.698 56.7411C24.6334 57.2247 24.6007 57.7121 24.6 58.1999C24.6 64.8611 30.5864 70.1923 37.2588 69.3019C39.1992 72.7543 42.8952 74.9999 47 74.9999C51.1048 74.9999 54.8008 72.7543 56.7412 69.3019C63.3996 70.1923 69.4 64.8611 69.4 58.1999C69.4 57.7155 69.3664 57.2283 69.302 56.7411C72.7544 54.7979 75 51.1019 75 46.9999C75 42.8979 72.7544 39.2019 69.302 37.2587ZM44.074 59.3647L33.8064 48.9655L37.7936 45.0343L44.1132 51.4351L56.2288 39.4119L60.1712 43.3879L44.074 59.3647Z"
+              fill="#3B44F6"
+            />
+          </svg>
+
+          <p class="icon-text">Trusted by 100.000+ customers</p>
+        </div>
+        <div class="icon-blue">
+          <svg
+            width="94"
+            height="94"
+            viewBox="0 0 94 94"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="94" height="94" rx="47" fill="#D8DAFD" />
+            <path
+              d="M59.8592 54.0221C64.8613 60.1517 67.1648 65.1751 66.0018 67.4215C65.1097 69.126 59.5995 72.4561 55.5458 73.7317C52.2035 74.7815 47.8224 75.2331 44.2091 74.8831C39.8957 74.4655 35.5259 72.919 31.7771 70.4807C28.6268 68.4262 27.9154 67.5795 27.9154 65.8976C27.9154 62.5223 31.6303 56.6072 37.9875 49.8567C41.6008 46.0299 46.6255 41.5371 47.1788 41.6613C48.2402 41.8984 56.6975 50.1389 59.8592 54.0221V54.0221ZM39.3876 34.3351C36.034 31.2985 32.8272 28.2507 29.6317 27.1783C27.9154 26.6025 27.7912 26.6364 26.3911 28.0926C23.0939 31.5243 20.3501 37.0895 19.5823 41.9097C18.9725 45.7703 18.8935 46.854 19.108 48.7392C19.7403 54.4398 21.0614 58.3795 23.6811 62.3869C24.7538 64.035 25.0474 64.3398 24.7312 63.5044C24.257 62.2627 24.6973 59.2713 25.8039 56.2798C27.4186 51.8773 31.89 43.5352 39.3876 34.3351V34.3351ZM74.5721 41.5033C72.6638 32.4725 66.9503 26.7945 66.1486 26.7945C65.3243 26.7945 63.416 27.5282 62.0836 28.3635C59.4527 30.0004 57.4541 31.9081 54.8231 34.3238C59.6108 40.3406 66.3631 50.0599 68.7005 57.1603C69.4683 59.497 69.7957 61.7999 69.536 63.0642C69.3441 64.0237 69.3441 64.0237 69.6941 63.5834C70.3829 62.7142 71.9411 60.0502 72.5622 58.673C73.3977 56.8442 74.2559 54.135 74.6624 52.0467C75.1479 49.5068 75.1028 44.0545 74.5721 41.5033V41.5033ZM34.0467 22.9564C39.4328 22.6742 46.4335 26.8509 46.9529 26.9525C47.032 26.9638 48.1273 26.4784 49.3919 25.8575C56.6072 22.3468 60.006 22.9451 61.519 23.0128C54.3037 18.5765 44.2769 17.3686 35.1081 21.6921C32.4659 22.9451 32.3982 23.0354 34.0467 22.9564Z"
+              fill="#3B44F6"
+            />
+          </svg>
+
+          <p class="icon-text">Available for all Xbox consoles</p>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="genres">
+          <h2>Games Genres</h2>
+          <a href="#see-all">See all genres</a>
+        </div>
+        <div class="genres-imgs grid-6-cols">
+          <div class="name">
+            <img src="imgs/bg-image (2).png" alt="Strategy" />
+            <p>Strategy</p>
+          </div>
+          <div class="name">
+            <img src="imgs/bg-image.png" alt="FPS" />
+            <p>FPS</p>
+          </div>
+          <div class="name">
+            <img src="imgs/bg-image-1.png" alt="RPG" />
+            <p>RPG</p>
+          </div>
+          <div class="name">
+            <img src="imgs/bg-image-2.png" alt="puzzle" />
+            <p>Puzzle</p>
+          </div>
+          <div class="name">
+            <img src="imgs/bg-image-3.png" alt="role playing" />
+            <p>Role Playing</p>
+          </div>
+          <div class="name">
+            <img src="imgs/bg-image-4.png" alt="sport" />
+            <p>Sport</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="best-seller container-in">
+          <h2>Best Seller Games</h2>
+        </div>
+        <div class="cards container-in grid-4-cols">
+          <div class="card">
+            <img src="/imgs/img thumbnail.png" alt="minecraft-img" />
+            <div class="description-card">
+              <p>Minecraft</p>
+              <div class="price-card">
+                <p>Rp 260.000</p>
+                <div class="descuento">
+                  <span class="porcentaje">90%</span>
+                  <p>Rp 260.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/imgs/img thumbnail-1.png" alt="minecraft-img" />
+            <div class="description-card">
+              <p>Asphalt 9: Legends</p>
+              <div class="price-card">
+                <p class="free-dload">Free Download</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/imgs/img thumbnail-2.png" alt="minecraft-img" />
+            <div class="description-card">
+              <p>The Witcher 3</p>
+              <div class="price-card">
+                <p>Rp 420.000</p>
+                <div class="descuento">
+                  <span class="porcentaje">25%</span>
+                  <p>Rp 590.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/imgs/img thumbnail-3.png" alt="minecraft-img" />
+            <div class="description-card">
+              <p>Surving Mars</p>
+              <div class="price-card">
+                <p>Rp 440.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mb">
+        <div class="popular-games container-in">
+          <h2>Popular Games</h2>
+          <a href="#browse">Browse all games</a>
+        </div>
+        <div class="cards container-in grid-4-cols">
+          <div class="card">
+            <img src="/imgs/popular/img thumbnail.png" alt="minecraft-img" />
+            <div class="description-card">
+              <p>GTA V</p>
+              <div class="price-card">
+                <p>Rp 354.000</p>
+                <div class="descuento">
+                  <span class="porcentaje">40%</span>
+                  <p>Rp 590.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/imgs/popular/img thumbnail-1.png" alt="minecraft-img" />
+            <div class="description-card">
+              <p>ROBLOX</p>
+              <div class="price-card">
+                <p class="free-dload">Free Download</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/imgs/popular/img thumbnail-2.png" alt="minecraft-img" />
+            <div class="description-card">
+              <p>NBA 2K22</p>
+              <div class="price-card">
+                <p>Rp 297.000</p>
+                <div class="descuento">
+                  <span class="porcentaje">70%</span>
+                  <p>Rp 990.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="/imgs/popular/img thumbnail-3.png" alt="minecraft-img" />
+            <div class="description-card">
+              <p>Dead by Daylight</p>
+              <div class="price-card">
+                <p>Rp 214.500</p>
+                <div class="descuento">
+                  <span class="porcentaje">50%</span>
+                  <p>Rp 429.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/imgs/popular/img thumbnail (2).png"
+              alt="minecraft-img"
+            />
+            <div class="description-card">
+              <p>ARK: Survival Evolved</p>
+              <div class="price-card">
+                <p>Rp 430.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="/imgs/popular/img thumbnail-1 (2).png"
+              alt="minecraft-img"
+            />
+            <div class="description-card">
+              <p>Rocket League</p>
+              <div class="price-card">
+                <p class="free-dload">Free Download</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/imgs/popular/img thumbnail-2 (2).png"
+              alt="minecraft-img"
+            />
+            <div class="description-card">
+              <p>Forza Horizon 5</p>
+              <div class="price-card">
+                <p>Rp 356.000</p>
+                <div class="descuento">
+                  <span class="porcentaje">60%</span>
+                  <p>Rp 890.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="/imgs/popular/img thumbnail-3 (2).png"
+              alt="minecraft-img"
+            />
+            <div class="description-card">
+              <p>Cities Skylines</p>
+              <div class="price-card">
+                <p>590.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container coming-soon">
+        <div class="container-in coming">
+          <h2 class="coming-white">Coming Soon</h2>
+        </div>
+        <div class="container-in grid-2-cols grid-coming">
+          <div class="col-1-1">
+            <img src="/imgs/coming/Rectangle 3.png" alt="cod img" />
+            <p>Call of Duty° Modern Warfare° II</p>
+            <a href="#pre">Pre-order now</a>
+          </div>
+          <div class="col-1-2">
+            <img src="/imgs/coming/Rectangle 3-1.png" alt="cod img" />
+            <p>Call of Duty° Modern Warfare° II</p>
+            <a href="#pre">Pre-order now</a>
+          </div>
+          <div class="col-2-1">
+            <img src="/imgs/coming/Rectangle 4.png" alt="cod img" />
+            <div class="title-pre">
+              <p>EA SPORTS™ FIFA 23</p>
+              <a href="#pre">Pre-order now</a>
+            </div>
+          </div>
+          <div class="col-2-2">
+            <img src="/imgs/coming/Rectangle 4-1.png" alt="cod img" />
+            <div class="title-pre">
+              <p>Resident Evil 4 - Remake</p>
+              <a href="#pre">Pre-order now</a>
+            </div>
+          </div>
+          <div class="col-2-3">
+            <img src="/imgs/coming/Rectangle 4-2.png" alt="cod img" />
+            <div class="title-pre">
+              <p>ALIEN - Dark Descent</p>
+              <a href="#pre">Pre-order now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
