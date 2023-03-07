@@ -11,12 +11,12 @@ html {
 }
 .hero {
   margin: 0 auto;
-  width: 128rem;
-  height: 72rem;
+  height: 100vh;
   background-image: url(games.png);
-  background-size: auto;
+  background-size: cover;
 }
 .hero img {
+  /* margin: 0 auto; */
   width: 11rem;
   margin-left: 10.2rem;
 }
@@ -126,7 +126,7 @@ html {
 }
 .genres-imgs {
   margin-top: 2rem;
-  padding-left: 9.4rem;
+  /* padding-left: 9.4rem; */
   width: 109rem;
   gap: 1.7rem;
 }
@@ -349,7 +349,7 @@ html {
 .testimonials-grid {
   gap: 2.7rem;
   width: 98.6rem;
-  margin: 5.1rem auto;
+  margin: 5.1rem auto 20rem auto;
   align-items: center;
 }
 .testimonial {
@@ -400,4 +400,57 @@ html {
   font-weight: 400;
   line-height: 1.44;
   text-align: center;
+}
+/* FOOTER CONTAINER */
+.footer {
+  background: #0e0e0e;
+  width: 100vw;
+}
+.footer-in {
+  /* background: #0e0e; */
+  margin: 0 auto;
+  padding: 5.6rem 0 2.2rem 0;
+  column-gap: 10rem;
+  row-gap: 5rem;
+}
+.logo {
+  width: 11rem;
+}
+.address-col,
+.nav-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.address,
+.footer-link {
+  display: block;
+  font-style: normal;
+  font-family: "roboto";
+  color: #a0a0a0;
+  font-size: 16px;
+  line-height: 1.4;
+  text-decoration: none;
+  margin-top: 1.6rem;
+}
+.social-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.copy {
+  display: block;
+  text-align: center;
+  grid-column: 1/-1;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  padding-top: 2.2rem;
 }
