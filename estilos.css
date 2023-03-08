@@ -12,9 +12,12 @@ html {
 .hero {
   margin: 0 auto;
   height: 100vh;
-  /* width: 100vh; */
+  width: 100%;
   background-image: url(games.png);
   background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
 }
 .hero img {
   /* margin: 0 auto; */
@@ -465,8 +468,10 @@ html {
 .btn-carousel {
   display: flex;
   justify-content: center;
+
   gap: 0.7rem;
-  padding-top: 18rem;
+  margin-top: auto;
+  margin-bottom: 2rem;
 }
 
 .carousel-testimonial {
